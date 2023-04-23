@@ -1,0 +1,44 @@
+.sizes{
+	height: 50px;
+	background-color: rgb(205, 202, 202); 
+	width: 50px; 
+	border-radius: 50%; 
+	padding-top: 13px;
+	margin-right: 5px;
+	font-weight: bold;
+}
+
+.box1{
+	border: 0.5px solid black; 
+	height: 30px; 
+	width: 50px; 
+	border-radius: 5px; 
+	margin-right: 5px;
+	padding-top: 4px;
+}
+ .boxes1{
+ 	 height: 50px;
+ 	 width: 94%;
+ 	 background-color: black; 
+ 	 color: white; 
+ 	 font-size: 17px; 
+ 	 padding-top: 10px;
+ 	 position: absolute;
+ 	 bottom: 0;
+ }
+
+ .freeship{
+ 	position: absolute; 
+ 	right: 0;
+ }
+
+ .linecon{
+ 	display: flex;
+ 	justify-content: center;
+ }
+
+ .linee{
+ 	height: 5px;
+ 	width: 40px;
+ 	background-color: gold;
+ }

@@ -1,0 +1,14 @@
+body{
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info{
+  color: rgb(29, 139, 202);
+  font-weight: 900;
+  font-size: 40px; 
+}

@@ -1,0 +1,64 @@
+.navbar-home {
+  background-color: #08556c;
+  border: none;
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+
+.navbar-home .navbar-nav > li > a {
+  color: #fff;
+}
+
+.navbar-home .navbar-brand {
+  color: #fff;
+  font-weight: bold;
+}
+.carousel-content {
+  height: 500px;
+}
+.About-Jewelry {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+
+}
+.About-Image{
+  margin-left: 60px;
+}
+.freeship{
+  position: absolute;
+  right: 0;
+}
+
+.line{
+  height: 8px;
+  width: 110px;
+  margin-left: 60px;
+  background-color: deeppink;
+  display: flex;
+  justify-content: center;
+}
+.Image-Text{
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.dollars{
+  font-size: 30px;
+}
+.span-text{
+  font-size: 20px;
+}
+
+.or{
+  color: gray;
+}
+.free-shipping input[type=button]{
+  background-color: black;
+  color: white;
+}
+.Carts {
+  color: #fff;
+  background-color: #151516;
+  border-color: #090a0a;
+  width: 200px;
+}

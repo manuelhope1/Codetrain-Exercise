@@ -1,0 +1,11 @@
+.lightgrey{
+	background-color: lightgrey;
+	border: solid 0.5px;
+}
+.orange{
+	background-color: #ff9800;
+	border: solid 0.5px;
+}
+.white{
+	color: white;
+}
