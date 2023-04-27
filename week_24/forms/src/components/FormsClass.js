@@ -36,9 +36,9 @@ export default class FormsClass extends Component {
 
   render() {
     return (
-      <>
+      <div className="bbox">
         <div className="box">
-          <h3>React Form</h3>
+          <h3>Class React Form</h3>
 
           <form className="form" onSubmit={this.inputSubmit}>
             <label>NAME</label>
@@ -94,7 +94,7 @@ export default class FormsClass extends Component {
             })}
           </table>
         </div>
-      </>
+      </div>
     );
   }
 }
