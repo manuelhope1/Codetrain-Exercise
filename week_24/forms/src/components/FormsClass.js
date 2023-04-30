@@ -10,7 +10,6 @@ export default class FormsClass extends Component {
           email: "",
           gen: "",
         },
-       
       ],
       name: "",
       email: "",
@@ -25,7 +24,7 @@ export default class FormsClass extends Component {
   inputSubmit = (e) => {
     e.preventDefault();
     const newInfo = {
-      name: this.state.name,
+      name: this.state.name + " " + "drinks",
       email: this.state.email,
       gen: this.state.gen,
     };
@@ -49,11 +48,12 @@ export default class FormsClass extends Component {
               className="input push"
               onChange={this.inputChange}
               autoComplete="off"
-            />
+            /> 
+           
             <br />
             <label>EMAIL</label>
             <input
-              type="email"
+              type="text"
               name="email"
               value={this.state.email}
               className="input push"

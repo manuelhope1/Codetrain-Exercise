@@ -7,7 +7,7 @@ function App() {
   return (
     <div id="body">
       <FormsClass/>
-      <FormsFunction/>
+      {/* <FormsFunction/> */}
     </div>
   );
 }
