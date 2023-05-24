@@ -1,5 +1,5 @@
 import React from "react";
-// import imagee from "../assets/welcome.webp";
+import imagee from "../assets/welcome.webp";
 
 const Home = () => {
   return (
@@ -8,7 +8,7 @@ const Home = () => {
         <div class="hero-content">
           <h1>Welcome </h1>
           <p>Discover amazing things with us!</p>
-          {/* <img src={imagee} className="img-fluid" /> */}
+          <img src={imagee} className="img-fluid" />
         </div>
       </section>
     </div>
