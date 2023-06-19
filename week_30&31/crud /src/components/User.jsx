@@ -1,15 +1,18 @@
 import React, { useState } from "react";
 import { Col, Card, Button, Modal } from "react-bootstrap";
 import EditUser from "./EditUser";
+import { deleteNewUser } from "../slice/usersSlice";
+import { useDispatch } from "react-redux";
 
 export default function User(props) {
   const [show, setShow] = useState(false);
-
+  const dispatch = useDispatch();
+  const user = props.userInfo;
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   const deleteUser = (e) => {
     e.preventDefault();
-    props.deleteUser(props.userInfo.id);
+    dispatch(deleteNewUser(user.id));
   };
   return (
     <>

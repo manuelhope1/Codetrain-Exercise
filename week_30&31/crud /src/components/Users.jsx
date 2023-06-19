@@ -7,7 +7,6 @@ export default function Users(props) {
   const state = useSelector((state) => {
     return state.userReducer;
   });
-  console.log(state);
 
   return (
     <Container>

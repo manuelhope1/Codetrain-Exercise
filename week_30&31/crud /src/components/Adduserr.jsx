@@ -2,12 +2,14 @@ import React, { useState } from "react";
 import { Form, Button } from "react-bootstrap";
 import { useDispatch } from "react-redux";
 import { addNewUser } from "../slice/usersSlice";
+import { v4 } from "uuid";
 
 const AddUserr = ({ addUser }) => {
   const dispatch = useDispatch();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [gen, setGen] = useState("");
+  const id = v4();
 
   const submitChange = (e) => {
     e.preventDefault();
@@ -15,6 +17,7 @@ const AddUserr = ({ addUser }) => {
       name,
       email,
       gen,
+      id,
     };
     dispatch(addNewUser(newUser));
     setName("");
