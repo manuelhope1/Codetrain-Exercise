@@ -33,6 +33,7 @@ const AddUserr = ({ addUser }) => {
           type="text"
           placeholder="Enter name"
           name="name"
+          autoComplete="off"
           onChange={(e) => {
             setName(e.target.value);
           }}
@@ -46,6 +47,7 @@ const AddUserr = ({ addUser }) => {
           type="email"
           placeholder="Enter email"
           name="email"
+          autoComplete="off"
           onChange={(e) => {
             setEmail(e.target.value);
           }}
@@ -59,6 +61,7 @@ const AddUserr = ({ addUser }) => {
           type="number"
           placeholder="Gen"
           name="gen"
+          autoComplete="off"
           onChange={(e) => {
             setGen(e.target.value);
           }}
